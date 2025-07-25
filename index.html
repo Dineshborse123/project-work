@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dinesh Bank</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="x" id="x">
+      <marquee behavior="scroll" direction="left" scrollamount="15">
+        Welcome to Dinesh Bank Trusted Financial Solutions for Every Dream. </marquee>
+    </div>
+  </header>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <img src="logo.png" alt="Dinesh Bank Logo" class="navbar-brand-logo">
+      <a class="navbar-brand bank-brand" href="#">Dinesh Bank</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+
+
+          <ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Home</a>
+  </li>
+
+  <!-- Paste this here -->
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+      Open Account
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="saving.html">Saving Account</a></li>
+      <li><a class="dropdown-item" href="current-account.html">Current Account</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Apply Loan
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="personal.html">Personal Loan</a></li>
+              <li><a class="dropdown-item" href="home.html">Home Loan</a></li>
+              <li><a class="dropdown-item" href="education.html">Education Loan</a></li>
+              <li><a class="dropdown-item" href="business.html">Business Loan</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu">
+              <a class="dropdown-item" href="login.html">Login</a>
+              <a class="dropdown-item" href="register.html">Register</a>
+
+            </ul>
+          </li>
+        </ul>
+
+
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section with Professional Image Carousel Pamphlet -->
+  <section class="hero-section position-relative" style="height: 100vh; overflow: hidden;">
+    <div id="heroCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="3500">
+      <div class="carousel-inner h-100">
+        <!-- Home Loan -->
+        <div class="carousel-item active h-100">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1200&q=80"
+            class="d-block w-100 h-100" alt="Home Loan" style="object-fit: cover;">
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+            <div class="bg-dark bg-opacity-50 rounded p-4">
+              <h1 class="display-4 fw-bold text-warning text-shadow">Home Loan</h1>
+              <p class="lead text-white text-shadow">Make your dream home a reality with easy financing.</p>
+              <a href="home.html" class="btn btn-warning btn-lg mt-3 shadow">Apply Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Personal Loan -->
+        <div class="carousel-item h-100">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80"
+            class="d-block w-100 h-100" alt="Personal Loan" style="object-fit: cover;">
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+            <div class="bg-dark bg-opacity-50 rounded p-4">
+              <h1 class="display-4 fw-bold text-warning text-shadow">Personal Loan</h1>
+              <p class="lead text-white text-shadow">Quick funds for your personal needs, anytime.</p>
+              <a href="personal.html" class="btn btn-warning btn-lg mt-3 shadow">Apply Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Business Loan -->
+        <div class="carousel-item h-100">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
+            class="d-block w-100 h-100" alt="Business Loan" style="object-fit: cover;">
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+            <div class="bg-dark bg-opacity-50 rounded p-4">
+              <h1 class="display-4 fw-bold text-warning text-shadow">Business Loan</h1>
+              <p class="lead text-white text-shadow">Grow your business with our flexible loan options.</p>
+              <a href="business.html" class="btn btn-warning btn-lg mt-3 shadow">Apply Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Education Loan -->
+        <div class="carousel-item h-100">
+          <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1200&q=80"
+            class="d-block w-100 h-100" alt="Education Loan" style="object-fit: cover;">
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+            <div class="bg-dark bg-opacity-50 rounded p-4">
+              <h1 class="display-4 fw-bold text-warning text-shadow">Education Loan</h1>
+              <p class="lead text-white text-shadow">Invest in your future with easy education loans.</p>
+              <a href="education.html" class="btn btn-warning btn-lg mt-3 shadow">Apply Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- 24/7 Customer Support -->
+        <div class="carousel-item h-100">
+          <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=1200&q=80"
+            class="d-block w-100 h-100" alt="Customer Support" style="object-fit: cover;">
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+            <div class="bg-dark bg-opacity-50 rounded p-4">
+              <h1 class="display-4 fw-bold text-warning text-shadow">24/7 Customer Support</h1>
+              <p class="lead text-white text-shadow">We are always here for your banking needs.</p>
+              <a href="#contact" class="btn btn-warning btn-lg mt-3 shadow">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <style>
+          </style>
+  </section>
+
+  <!-- Add this just after the Hero Section, before the Loan Application Form -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row justify-content-center g-4">
+        <div class="col-md-4">
+          <div class="card shadow pamphlet-card h-100">
+            <div class="card-body text-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Trust" width="60" class="mb-3">
+              <h5 class="card-title mb-2">Trusted by Thousands</h5>
+              <p class="card-text">Serving customers with integrity and transparency for over a decade.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow pamphlet-card h-100">
+            <div class="card-body text-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Secure" width="60" class="mb-3">
+              <h5 class="card-title mb-2">Secure & Reliable</h5>
+              <p class="card-text">Your data and money are protected with state-of-the-art security systems.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow pamphlet-card h-100">
+            <div class="card-body text-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Support" width="60" class="mb-3">
+              <h5 class="card-title mb-2">24/7 Customer Support</h5>
+              <p class="card-text">Our dedicated team is always here to help you with your banking needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Interest Rates Section -->
+  <section class="rates-section">
+    <div class="rates-container">
+      <h2 class="section-title">Current Interest Rates</h2>
+      <div class="rates-grid">
+        <div class="rate-card">
+          <h3>Home loan</h3>
+          <div class="rate-value">10.5%</div>
+          <p>Annual Interest Rate</p>
+        </div>
+        <div class="rate-card">
+          <h3>personal laon</h3>
+          <div class="rate-value">10.5%</div>
+          <p>For 1 year term</p>
+        </div>
+        <div class="rate-card">
+          <h3>Education loan</h3>
+          <div class="rate-value">8.5%</div>
+          <p>Starting from</p>
+        </div>
+        <div class="rate-card">
+          <h3>busineess loan</h3>
+          <div class="rate-value">12.5%</div>
+          <p>Starting from</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add this section after your Interest Rates Section for professional offers -->
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 text-primary fw-bold">Exclusive Offers from Dinesh Bank</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100 shadow border-0">
+            <div class="card-body text-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="Zero Processing Fee" width="60"
+                class="mb-3">
+              <h5 class="card-title text-success">Zero Processing Fee</h5>
+              <p class="card-text">Apply for a Home or Personal Loan this month and pay no processing charges!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow border-0">
+            <div class="card-body text-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/190/190406.png" alt="Instant Approval" width="60"
+                class="mb-3">
+              <h5 class="card-title text-success">Instant Approval</h5>
+              <p class="card-text">Get your loan approved within 24 hours with minimal documentation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow border-0">
+            <div class="card-body text-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Flexible EMI" width="60"
+                class="mb-3">
+              <h5 class="card-title text-success">Flexible EMI Options</h5>
+              <p class="card-text">Choose your repayment plan with easy and flexible EMI options.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow border-0">
+            <div class="card-body text-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/190/190422.png" alt="Special Rates" width="60"
+                class="mb-3">
+              <h5 class="card-title text-success">Special Rates for Women</h5>
+              <p class="card-text">Exclusive lower interest rates for women applicants on all loan products.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMI Calculator Section -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4 text-primary fw-bold">EMI Calculator</h2>
+      <form class="row g-3 justify-content-center" id="emiForm">
+        <div class="col-md-3">
+          <input type="number" class="form-control" id="amount" placeholder="Loan Amount" required>
+        </div>
+        <div class="col-md-3">
+          <input type="number" class="form-control" id="rate" placeholder="Interest Rate (%)" required>
+        </div>
+        <div class="col-md-3">
+          <input type="number" class="form-control" id="tenure" placeholder="Tenure (months)" required>
+        </div>
+        <div class="col-md-2 d-grid">
+          <button type="button" class="btn btn-warning" onclick="calculateEMI()">Calculate</button>
+        </div>
+      </form>
+      <div class="text-center mt-3">
+        <span id="emiResult" class="fw-bold"></span>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    function calculateEMI() {
+      var P = parseFloat(document.getElementById('amount').value);
+      var R = parseFloat(document.getElementById('rate').value) / 12 / 100;
+      var N = parseFloat(document.getElementById('tenure').value);
+      var emi = (P * R * Math.pow(1 + R, N)) / (Math.pow(1 + R, N) - 1);
+      document.getElementById('emiResult').innerText = 'Your EMI: ₹' + (emi ? emi.toFixed(2) : 0);
+    }
+  </script>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container text-center">
+    <h5>Dinesh Bank</h5>
+    <p>123, Mumbai, Maharashtra | support@dineshbank.com | 1800-111-222</p>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Loan</a>
+      <a href="#">Contact</a>
+    </div>
+    <p class="footer-copy">© 2025 Dinesh Bank. All rights reserved.</p>
+  </div>
+</footer>
+
+<<!-- Simple Chatbot -->
+<div id="chatbot" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999;">
+  <button onclick="toggleChat()" style="background-color:#f0ad4e; border:none; border-radius:50%; width:60px; height:60px; box-shadow:0 2px 8px rgba(0,0,0,0.2);">
+    💬
+  </button>
+  <div id="chatWindow" style="display:none; width:300px; height:400px; background:white; border-radius:12px; box-shadow:0 2px 10px rgba(0,0,0,0.3); padding:10px; position:absolute; bottom:70px; right:0;">
+    <h5 style="text-align:center;">Dinesh Bot</h5>
+    <div id="chatLog" style="height:300px; overflow-y:auto; border:1px solid #ccc; padding:5px; margin-bottom:10px; font-size:14px;"></div>
+    <input type="text" id="userInput" placeholder="Type a message..." style="width:75%; padding:5px;">
+    <button onclick="sendMessage()" class="btn btn-sm btn-warning">Send</button>
+  </div>
+</div>
+
+<script>
+  function toggleChat() {
+    const chat = document.getElementById('chatWindow');
+    chat.style.display = (chat.style.display === 'none') ? 'block' : 'none';
+  }
+
+  function sendMessage() {
+    const input = document.getElementById('userInput');
+    const log = document.getElementById('chatLog');
+    const userText = input.value.trim();
+    if (userText === '') return;
+
+    log.innerHTML += `<div><strong>You:</strong> ${userText}</div>`;
+    input.value = '';
+
+    // Simple bot replies
+    let reply = '';
+    if (/hello|hi/i.test(userText)) {
+      reply = 'Hello! How can I help you today?';
+    } else if (/loan/i.test(userText)) {
+      reply = 'We offer Personal, Home, Business & Education Loans. Visit "Apply Loan" section above.';
+    } else if (/rate/i.test(userText)) {
+      reply = 'Our interest rates start from 8.5%. See the Interest Rate section on the page.';
+    } else if (/contact/i.test(userText)) {
+      reply = 'You can reach us at 1800-111-222 or support@dineshbank.com.';
+    } else {
+      reply = 'Sorry, I didn’t understand. Please try asking about "loan", "rate", or "contact".';
+    }
+
+    setTimeout(() => {
+      log.innerHTML += `<div><strong>Dinesh Bot:</strong> ${reply}</div>`;
+      log.scrollTop = log.scrollHeight;
+    }, 500);
+  }
+</script>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

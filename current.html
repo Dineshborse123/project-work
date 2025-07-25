@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open Current Account - Dinesh Bank</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container py-5">
+  <h2 class="text-center mb-4 text-primary">Open a Current Account</h2>
+  <form enctype="multipart/form-data">
+    <div class="row g-3">
+      <!-- Basic Info -->
+      <div class="col-md-6">
+        <label class="form-label">Business Name</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Owner's Full Name</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Business Type</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Mobile Number</label>
+        <input type="tel" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Business Address</label>
+        <textarea class="form-control" rows="2" required></textarea>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">GST Number (Optional)</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Initial Deposit (₹)</label>
+        <input type="number" class="form-control" required>
+      </div>
+    </div>
+
+    <!-- KYC Uploads -->
+    <h5 class="mt-4">Upload KYC & Business Documents</h5>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label">Owner Aadhaar Card</label>
+        <input type="file" class="form-control" accept=".pdf,.jpg,.jpeg,.png" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Owner PAN Card</label>
+        <input type="file" class="form-control" accept=".pdf,.jpg,.jpeg,.png" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Passport-size Photo</label>
+        <input type="file" class="form-control" accept=".jpg,.jpeg,.png" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Signature</label>
+        <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">GST Certificate (Optional)</label>
+        <input type="file" class="form-control" accept=".pdf,.jpg,.jpeg,.png">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Business Registration Proof</label>
+        <input type="file" class="form-control" accept=".pdf,.jpg,.jpeg,.png">
+      </div>
+    </div>
+
+    <div class="mt-4 text-center">
+      <button type="submit" class="btn btn-success">Submit Application</button>
+    </div>
+  </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

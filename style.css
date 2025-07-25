@@ -1,0 +1,182 @@
+.x {
+    background-color: #ffcc00; /* Yellow background */
+    color: #000000; /* Black text */
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#marquee {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+    color: #562e2eff;
+    overflow-x: hidden;
+}
+
+.text-shadow {
+        text-shadow: 2px 2px 8px #000;
+      }
+
+      .carousel-caption {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+      @media (max-width: 768px) {
+        .carousel-caption h1 {
+          font-size: 2rem;
+        }
+
+        .carousel-caption p {
+          font-size: 1rem;
+        }
+
+        .carousel-caption .p-4 {
+          padding: 1rem !important;
+        }
+      }
+
+.bank-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #1a237e !important;
+    text-transform: uppercase;
+}
+
+.pamphlet-card {
+    border: none;
+    border-radius: 18px;
+    transition: box-shadow 0.3s;
+    background: #f8fafc;
+}
+.pamphlet-card:hover {
+    box-shadow: 0 8px 32px rgba(26, 35, 126, 0.15);
+    background: #fffbe7;
+}
+.pamphlet-card img {
+    filter: drop-shadow(0 2px 8px rgba(26, 35, 126, 0.10));
+}
+
+.navbar-brand-logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+ /* Interest Rates Section */
+.rates-section {
+  background: linear-gradient(to right, #f8fbff, #eaf4ff);
+  padding: 60px 20px;
+}
+
+.rates-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #003366;
+  margin-bottom: 40px;
+}
+
+.rates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.rate-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.rate-card:hover {
+  transform: translateY(-5px);
+}
+
+.rate-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00529b;
+  margin-bottom: 10px;
+}
+
+.rate-value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #28a745;
+  margin: 10px 0;
+}
+
+.rate-card p {
+  color: #666;
+  font-size: 14px;
+}
+.text-shadow {
+        text-shadow: 2px 2px 8px #000;
+      }
+
+      .carousel-caption {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+
+      .footer {
+  background-color: #f1f1f1;
+  padding: 30px 0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #007bff; /* blue hover */
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+
